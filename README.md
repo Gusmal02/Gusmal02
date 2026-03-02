@@ -15,8 +15,11 @@ Me especializo en detectar patrones de riesgo y proteger la integridad de los da
 - **Hard Skills:** Reparación de hardware nivel electrónico (Apple, PC/Laptop).
 
 ### 📈 Proyectos Destacados
-1. [Monitor de Anomalías](https://github.com/Gusmal02/deteccion_anomalias): Detección de riesgo de fuga con F1-Score de 0.62.
-2. [Ofuscación de Datos](https://github.com/Gusmal02/proyecto_privacidad_datos): Protección de PII mediante multiplicación matricial.
+Dynamic IR System: Motor de respuesta ante incidentes que selecciona dinámicamente entre LightGBM y CatBoost según la carga de CPU y criticidad del activo. Logró un 99.2% de Accuracy en la detección de intrusiones (DDoS, PortScan).
+
+Monitor de Anomalías: Detección de riesgo de fuga de clientes con F1-Score de 0.62.
+
+Ofuscación de Datos: Protección de PII mediante multiplicación matricial.
 
 ---
 📫 **¿Cómo contactarme?**
