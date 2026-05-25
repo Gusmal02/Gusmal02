@@ -1,17 +1,19 @@
 
-# ¡Hola! Soy Gustavo Alfonso Maldonado Vallejo 👋
+# ¡Hola! Soy Gustavo Maldonado 👋
 
-## Data Scientist & Cybersecurity Specialist | Machine Learning aplicado a la Ciberseguridad
+## Data Scientist & Machine Learning Developer
 
-Me apasiona la intersección entre la **Ciencia de Datos** y la **Seguridad Informática**[cite: 2]. Mi enfoque principal está en el desarrollo de modelos predictivos, el análisis inteligente de datos para la detección de amenazas y la automatización de auditorías de seguridad. Me destaco por mi curiosidad extrema, capacidad de investigación independiente y resolución de problemas técnicos complejos.
+Soy un apasionado de la **Ciencia de Datos** y la **Inteligencia Artificial**, con un enfoque central en el desarrollo de modelos predictivos y el análisis avanzado de datos para resolver problemas complejos. Mi perfil combina la programación y el modelado estadístico con una sólida base en infraestructura de TI y hardware, lo que me permite entender el ciclo completo de los datos, desde los componentes físicos que los procesan hasta los algoritmos que los transforman en decisiones. 
+
+Aunque tengo un interés y proyectos orientados hacia la ciberseguridad, mi objetivo es aplicar el aprendizaje automático de manera versátil en diversos sectores económicos y tecnológicos.
 
 ---
 
 ## 🎯 Lo que me distingue
 
-* **Curiosidad extrema y resolución autónoma:** No me detengo ante lo desconocido. Si un problema requiere aprender una tecnología fuera del ecosistema original para resolverse de raíz, investigo y la domino.
-* **Enfoque práctico y realista:** Priorizo el desarrollo de soluciones funcionales y eficientes basadas en datos reales por encima de las tendencias o arquitecturas sobredimensionadas[cite: 1].
-* **Mentalidad técnica multidisciplinaria:** Mi experiencia previa gestionando infraestructura física y resolviendo problemas de hardware a nivel electrónico me da una visión completa de la seguridad, permitiéndome entender no solo el software, sino cómo impacta en el entorno real.
+* **Sólida base en infraestructura:** Antes de volcarme al software y los datos, trabajé a nivel profundo con hardware y soporte técnico informático. Entiendo cómo respira un servidor, cómo se gestionan los recursos físicos y el impacto real del software sobre los sistemas.
+* **Curiosidad extrema y resolución autónoma:** Si un reto técnico requiere investigar una tecnología fuera de mi zona de confort o aprender herramientas adicionales para resolver el problema desde la raíz, lo hago sin dudar.
+* **Hibridación técnica:** Mi perfil une tres mundos clave: el análisis y modelado de datos, la lógica defensiva de la ciberseguridad y la gestión de la infraestructura que sostiene los sistemas.
 
 ---
 
@@ -19,41 +21,40 @@ Me apasiona la intersección entre la **Ciencia de Datos** y la **Seguridad Info
 
 ### 📊 Ciencia de Datos & Machine Learning
 * **Modelos Predictivos:** Regresión Lineal, Regresión Logística, Árboles de Decisión, Random Forest, LightGBM, CatBoost.
-* **Procesamiento de Datos:** Pandas, NumPy, Scikit-Learn.
-* **Técnicas Avanzadas:** Balanceo de clases (Upsampling / Downsampling), evaluación avanzada de métricas (F1-Score, AUC-ROC, Matrices de Confusión).
-* **Deep Learning (Bases Teóricas):** Fundamentos de aprendizaje no supervisado con PyTorch, Redes Convolucionales (CNN) y lógica del algoritmo YOLO.
+* **Procesamiento y Análisis:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib.
+* **Métricas y Optimización:** Balanceo de clases (Upsampling / Downsampling), evaluación mediante F1-Score, AUC-ROC y Matrices de Confusión.
+* **Visión Artificial e IA (Bases Teóricas):** Comprensión del aprendizaje no supervisado con PyTorch, arquitecturas de Redes Convolucionales (CNN) y procesamiento de imágenes.
 
-### 🛡️ Ciberseguridad & Automatización
-* **Seguridad Defensiva:** Análisis de comportamiento de entidades (UEBA), respuesta a incidentes (IR), técnicas de enmascaramiento y ofuscación de datos sensibles (PII).
-* **Auditoría de Redes:** Escaneo y descubrimiento de servicios mediante Nmap.
-* **Infraestructura & Contenedores:** Gestión y despliegue local con Docker y Kubernetes[cite: 1].
-* **Automatización:** Comprensión lógica y diseño de flujos con n8n[cite: 1].
+### ⚙️ Infraestructura & Automatización
+* **Entornos Locales:** Gestión y despliegue de contenedores mediante Docker y Kubernetes.
+* **Automatización de Procesos:** Diseño lógico de flujos de trabajo con n8n.
+* **Fundamentos de Seguridad:** Análisis de comportamiento de redes, respuesta a incidentes y enmascaramiento/ofuscación de datos sensibles (PII).
 
 ---
 
 ## 🚀 Proyectos Destacados
 
-### 1. ⚡ Sistema Dinámico de Respuesta ante Incidentes
-* **Descripción:** Motor de decisión en tiempo real que optimiza la latencia y la profundidad del análisis en la detección de intrusiones en red según el estado actual del servidor.
-* **Solución:** Evalúa la carga de CPU y la criticidad del activo para seleccionar dinámicamente entre **LightGBM** (respuesta rápida con baja latencia) y **CatBoost** (inspección profunda). Procesó más de 400,000 registros del dataset CIC-IDS2017 con una precisión del 99.2%.
-* **Tecnologías:** Python 3.12, LightGBM, CatBoost, Scikit-Learn, Pandas.
+### 1. ⚡ Sistema Dinámico de Optimización y Respuesta ante Incidentes
+* **Descripción:** Motor de decisión en tiempo real que evalúa métricas del sistema para balancear la carga de trabajo y seleccionar el nivel de profundidad en el análisis de flujos de datos.
+* **Solución:** Monitorea la carga de CPU y la criticidad de los activos para alternar dinámicamente entre un modelo ligero (**LightGBM**) para respuestas de baja latencia y un modelo robusto (**CatBoost**) para inspecciones profundas. Procesó eficazmente más de 400,000 registros con un rendimiento óptimo.
+* **Tecnologías:** Python, LightGBM, CatBoost, Scikit-Learn, Pandas.
 
-### 2. 🛡️ Network Sentinel: Detección Temprana de Ataques DDoS
-* **Descripción:** Sistema ligero basado en Machine Learning local (Edge Computing) diseñado para diferenciar picos de tráfico legítimos de ataques volumétricos[cite: 4].
-* **Solución:** Implementa ventanas deslizantes (lags de 24h) y Regresión Lineal para establecer una línea base de tráfico estacional diario, disparando alertas críticas automatizadas cuando el tráfico real supera 3 veces la predicción.
-* **Tecnologías:** Python 3.12, Pandas, NumPy, Scikit-Learn, Matplotlib.
+### 2. 🛡️ Network Sentinel: Análisis Predictivo de Tráfico (Edge Computing)
+* **Descripción:** Sistema ligero basado en Machine Learning local diseñado para establecer líneas base de comportamiento y detectar anomalías o picos de actividad fuera de lo común.
+* **Solución:** Implementa ventanas deslizantes (lags de 24 horas) y Regresión Lineal para mapear la estacionalidad diaria de un servidor, activando alertas automatizadas cuando la actividad real rompe significativamente los umbrales estadísticos previstos.
+* **Tecnologías:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib.
 
 ### 3. 📦 Network Security Scanner Container
-* **Descripción:** Contenedor portable diseñado para agilizar y automatizar las auditorías de seguridad perimetral sin configuraciones complejas en el host.
-* **Solución:** Empaqueta un script de Python que automatiza el descubrimiento de servicios y escaneo de puertos mediante el motor profesional **Nmap**, entregando reportes legibles de riesgos potenciales.
-* **Tecnologías:** Docker, Python 3.11, Nmap, Debian Slim.
+* **Descripción:** Solución portable y automatizada para auditorías de red y descubrimiento de servicios, empaquetada para su ejecución inmediata sin dependencias complejas.
+* **Solución:** Un contenedor Docker optimizado que ejecuta scripts en Python para orquestar herramientas de análisis de puertos y servicios, generando reportes claros sobre la exposición de activos.
+* **Tecnologías:** Docker, Python, Nmap, Debian Slim.
 
 ---
 
 ## 📬 Conéctate conmigo
 
-Si quieres platicar sobre Machine Learning aplicado a la seguridad, automatización o proyectos open-source, no dudes en contactarme:
+Estoy abierto a colaborar en proyectos de Machine Learning, Ciencia de Datos, automatización y desarrollo tecnológico en general.
 
-* 📧 **Correo Electrónico:** [gustavo.a.maldonado.v@gmail.com](mailto:gustavo.a.maldonado.v@gmail.com)[cite: 1]
-* 💼 **LinkedIn:** [linkedin.com/in/gustavo-maldonado-519638376](https://www.linkedin.com/in/gustavo-maldonado-519638376/)[cite: 1]
-* 💻 **GitHub:** [github.com/Gusmal02](https://github.com/Gusmal02)[cite: 1]
+* 📧 **Correo Electrónico:** [gustavo.a.maldonado.v@gmail.com](mailto:gustavo.a.maldonado.v@gmail.com)
+* 💼 **LinkedIn:** [linkedin.com/in/gustavo-maldonado-519638376](https://www.linkedin.com/in/gustavo-maldonado-519638376/)
+* 💻 **GitHub:** [github.com/Gusmal02](https://github.com/Gusmal02)
