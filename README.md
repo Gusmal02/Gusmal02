@@ -34,17 +34,21 @@ Aunque tengo un interés y proyectos orientados hacia la ciberseguridad, mi obje
 
 ## 🚀 Proyectos Destacados
 
-### 1. ⚡ Sistema Dinámico de Optimización y Respuesta ante Incidentes
+### 1. Sistema Híbrido de Prevención de Fraude y Detección de Anomalías | github.com/Gusmal02/prevencion-fraude-neurosimbolico
+Herramientas implementadas: Python, LightGBM, Isolation Forest, Pandas, Scikit-learn, Lógica Booleana.
+Logros: Diseñé e implementé un pipeline analítico de nivel producción en tres capas para procesar un dataset masivo de cerca de 600,000 registros transaccionales relacionales. Desarrollé una capa no supervisada con Isolation Forest para aislamiento estadístico de anomalías e ingeniería de características temporales avanzadas, mitigando el desbalance extremo de clases mediante el ajuste paramétrico de gradiente en LightGBM. Integré un motor neurosimbólico de reglas de negocio sobre la zona gris predictiva, logrando reducir un 62.3% los falsos positivos y salvando a 12,523 clientes legítimos de bloqueos erróneos.
+
+### 2. ⚡ Sistema Dinámico de Optimización y Respuesta ante Incidentes
 * **Descripción:** Motor de decisión en tiempo real que evalúa métricas del sistema para balancear la carga de trabajo y seleccionar el nivel de profundidad en el análisis de flujos de datos.
 * **Solución:** Monitorea la carga de CPU y la criticidad de los activos para alternar dinámicamente entre un modelo ligero (**LightGBM**) para respuestas de baja latencia y un modelo robusto (**CatBoost**) para inspecciones profundas. Procesó eficazmente más de 400,000 registros con un rendimiento óptimo.
 * **Tecnologías:** Python, LightGBM, CatBoost, Scikit-Learn, Pandas.
 
-### 2. 🛡️ Network Sentinel: Análisis Predictivo de Tráfico (Edge Computing)
+### 3. 🛡️ Network Sentinel: Análisis Predictivo de Tráfico (Edge Computing)
 * **Descripción:** Sistema ligero basado en Machine Learning local diseñado para establecer líneas base de comportamiento y detectar anomalías o picos de actividad fuera de lo común.
 * **Solución:** Implementa ventanas deslizantes (lags de 24 horas) y Regresión Lineal para mapear la estacionalidad diaria de un servidor, activando alertas automatizadas cuando la actividad real rompe significativamente los umbrales estadísticos previstos.
 * **Tecnologías:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib.
 
-### 3. 📦 Network Security Scanner Container
+### 4. 📦 Network Security Scanner Container
 * **Descripción:** Solución portable y automatizada para auditorías de red y descubrimiento de servicios, empaquetada para su ejecución inmediata sin dependencias complejas.
 * **Solución:** Un contenedor Docker optimizado que ejecuta scripts en Python para orquestar herramientas de análisis de puertos y servicios, generando reportes claros sobre la exposición de activos.
 * **Tecnologías:** Docker, Python, Nmap, Debian Slim.
@@ -56,5 +60,5 @@ Aunque tengo un interés y proyectos orientados hacia la ciberseguridad, mi obje
 Estoy abierto a colaborar en proyectos de Machine Learning, Ciencia de Datos, automatización y desarrollo tecnológico en general.
 
 * 📧 **Correo Electrónico:** [gustavo.a.maldonado.v@gmail.com](mailto:gustavo.a.maldonado.v@gmail.com)
-* 💼 **LinkedIn:** [linkedin.com/in/gustavo-maldonado-519638376](https://www.linkedin.com/in/gustavo-maldonado-519638376/)
+* 💼 **LinkedIn:** [linkedin.com/in/gustavo-maldonado-519638376](https://www.linkedin.com/in/gustavo-maldonadov)
 * 💻 **GitHub:** [github.com/Gusmal02](https://github.com/Gusmal02)
