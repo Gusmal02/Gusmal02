@@ -68,7 +68,7 @@ Framework de detección de anomalías financieras sobre la esfera cuaterniónica
 
 ## 🔬 Investigación
 
-**[NEURAL-RMF](https://doi.org/10.5281/zenodo.22950874)** — Preprint publicado en Zenodo (sep. 2026). Sistema de alerta temprana de crisis epilépticas sin entrenamiento supervisado: 66/69 crisis detectadas con 4 electrodos, 67–88 min de anticipación (CHB-MIT + Siena). Basado en el framework matemático original de Campo de Memoria Resonante (osciladores cuaterniónicos en S³).  
+**[NEURAL-RMF](https://doi.org/10.5281/zenodo.22950874)** — Preprint publicado en Zenodo (sep. 2026). Sistema de alerta temprana de crisis epilépticas sin entrenamiento supervisado: 66/66 crisis detectadas con 4 electrodos, 67–88 min de anticipación (CHB-MIT + Siena). Basado en el framework matemático original de Campo de Memoria Resonante (osciladores cuaterniónicos en S³).  
 `DOI: 10.5281/zenodo.22950874`
 
 **EQ-RMF** — Detección temprana de sismos M6.5+ en zonas de deslizamiento lento (SSE/ETS): ratios pre-6h de hasta 222× en 10 eventos M6.8–M8.3.
