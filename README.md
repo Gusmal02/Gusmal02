@@ -5,7 +5,7 @@
 
 Construyo **agentes LLM con memoria persistente**, **pipelines RAG correctivos** y **modelos de ML** aplicados a problemas reales de negocio: scoring crediticio, detección de fraude y anomalías en grafos financieros.
 
-Integro seguridad desde el origen en cada proyecto (Bandit SAST, Docker no-root, CI/CD) y tengo investigación propia en curso en sistemas de alerta temprana para crisis epilépticas y detección sísmica.
+Integro seguridad desde el origen en cada proyecto (Bandit SAST, Docker no-root, CI/CD) y tengo investigación propia publicada: preprint de NEURAL-RMF en Zenodo — sistema de alerta temprana de crisis epilépticas sin entrenamiento supervisado.
 
 ---
 
@@ -68,7 +68,8 @@ Framework de detección de anomalías financieras sobre la esfera cuaterniónica
 
 ## 🔬 Investigación
 
-**NEURAL-RMF** — Sistema de alerta temprana de crisis epilépticas focales con 4 electrodos: 95% de detección y 67–88 min de anticipación (CHB-MIT). Basado en el framework matemático original de Campo de Memoria Resonante (osciladores cuaterniónicos en S³).
+**[NEURAL-RMF](https://doi.org/10.5281/zenodo.22950874)** — Preprint publicado en Zenodo (sep. 2026). Sistema de alerta temprana de crisis epilépticas sin entrenamiento supervisado: 66/69 crisis detectadas con 4 electrodos, 67–88 min de anticipación (CHB-MIT + Siena). Basado en el framework matemático original de Campo de Memoria Resonante (osciladores cuaterniónicos en S³).  
+`DOI: 10.5281/zenodo.22950874`
 
 **EQ-RMF** — Detección temprana de sismos M6.5+ en zonas de deslizamiento lento (SSE/ETS): ratios pre-6h de hasta 222× en 10 eventos M6.8–M8.3.
 
